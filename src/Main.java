@@ -18,7 +18,7 @@ class Livro {
         System.out.println("Autor: " + autor);
         System.out.println("Ano de Publicação: " + anoPublicacao);
         System.out.println("Número de Páginas: " + numeroPaginas);
-        System.out.println("================================\n");
+        System.out.println("\n");
     }
 
     public boolean ehLivroAntigo() {
@@ -61,29 +61,3 @@ class Livro {
 }
 
 
-public class Main {
-    public static void main(String[] args) {
-
-        Livro livro1 = new Livro("1984", "George Orwell", 1949, 328);
-        Livro livro2 = new Livro("Clean Code", "Robert Martin", 2008, 464);
-        Livro livro3 = new Livro("Dom Casmurro", "Machado de Assis", 1899, 256);
-
-
-        livro1.exibirInformacoes();
-        livro2.exibirInformacoes();
-        livro3.exibirInformacoes();
-
-        System.out.println("O livro '" + livro1.getTitulo() + "' é antigo? " +
-                (livro1.ehLivroAntigo() ? "Sim" : "Não"));
-
-        System.out.println("O livro '" + livro2.getTitulo() + "' é antigo? " +
-                (livro2.ehLivroAntigo() ? "Sim" : "Não"));
-
-        System.out.println("O livro '" + livro3.getTitulo() + "' é antigo? " +
-                (livro3.ehLivroAntigo() ? "Sim" : "Não"));
-
-        System.out.println("\n--- Modificando o número de páginas do livro 2 ---");
-        livro2.setNumeroPaginas(500);
-        System.out.println("Novo número de páginas: " + livro2.getNumeroPaginas());
-    }
-}
