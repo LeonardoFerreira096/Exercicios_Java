@@ -49,7 +49,7 @@ class Livro {
 
     public void setAnoPublicacao(int anoPublicacao) {
         this.anoPublicacao = anoPublicacao;
-    }
+    } 
 
     public int getNumeroPaginas() {
         return numeroPaginas;
