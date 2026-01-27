@@ -1,3 +1,5 @@
+package execicios.java.introducao;
+
 public class ContagemDeArray {
         static int [] numeros = new int[10];
 

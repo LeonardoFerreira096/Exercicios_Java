@@ -1,3 +1,5 @@
+package execicios.java.introducao;
+
 import java.util.Scanner;
 
 public class SomaNumeros {
