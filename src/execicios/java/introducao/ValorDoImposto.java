@@ -1,20 +1,23 @@
 package execicios.java.introducao;
 
+// Calculo de salario anual sobre imposto descrito.
+
 public class ValorDoImposto {
     public static void main(String[] args) {
-        double salarioAnual = 50000;
+        double SalarioAnual = 70000;
         double Faixa01 = 9.70 / 100;
         double Faixa02 = 37.35 / 100;
         double Faixa03 = 49.50 / 100;
+        double ValorImposto ;
 
 
-        if ( salarioAnual <= 34712) {
-            salarioAnual = salarioAnual * Faixa01;
-        } else if (salarioAnual >= 34713 && salarioAnual <= 68507) {
-            salarioAnual = salarioAnual * Faixa02;
+        if ( SalarioAnual <= 34712) {
+            ValorImposto = SalarioAnual* Faixa01;
+        } else if (SalarioAnual >= 34713 && SalarioAnual <= 68507) {
+            ValorImposto = SalarioAnual * Faixa02;
         } else {
-            salarioAnual = salarioAnual * Faixa03;
+            ValorImposto = SalarioAnual * Faixa03;
         }
-        System.out.println(String.format("%.2f", salarioAnual));
+        System.out.println(String.format("%.2f", ValorImposto));
     }
 }
