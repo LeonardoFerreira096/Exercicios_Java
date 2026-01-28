@@ -10,7 +10,7 @@ public class ValorDoImposto {
 
         if ( salarioAnual <= 34712) {
             salarioAnual = salarioAnual * Faixa01;
-        } else if (salarioAnual <= 68507) {
+        } else if (salarioAnual >= 34713 && salarioAnual <= 68507) {
             salarioAnual = salarioAnual * Faixa02;
         } else {
             salarioAnual = salarioAnual * Faixa03;
