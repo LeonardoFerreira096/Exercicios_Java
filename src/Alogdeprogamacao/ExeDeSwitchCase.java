@@ -1,4 +1,4 @@
-package execicios.java.introducao;
+package Alogdeprogamacao;
 
 public class ExeDeSwitchCase {
     public static void main(String[] args) {

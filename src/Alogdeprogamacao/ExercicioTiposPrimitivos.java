@@ -1,4 +1,4 @@
-package execicios.java.introducao;
+package Alogdeprogamacao;
 
 //crie variaveis para campos descritos entre <> e imprima a seguintte mensagem:
 // eu <nome>, morando no endereco <endereco>, confirmo que recebi o salario de <salario>

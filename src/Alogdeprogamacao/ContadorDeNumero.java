@@ -1,4 +1,4 @@
-package execicios.java.introducao;
+package Alogdeprogamacao;
 
 // pegando só numeros pares
 

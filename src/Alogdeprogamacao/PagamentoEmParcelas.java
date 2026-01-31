@@ -1,4 +1,4 @@
-package execicios.java.introducao;
+package Alogdeprogamacao;
 
 public class PagamentoEmParcelas {
     public static void main(String[] args){

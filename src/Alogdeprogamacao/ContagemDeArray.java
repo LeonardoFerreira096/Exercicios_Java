@@ -1,4 +1,4 @@
-package execicios.java.introducao;
+package Alogdeprogamacao;
 
 public class ContagemDeArray {
         static int [] numeros = new int[10];
