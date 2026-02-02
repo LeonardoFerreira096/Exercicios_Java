@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 // Calculo de salario anual sobre imposto descrito.
 

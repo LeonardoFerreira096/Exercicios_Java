@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 public class ExeMatriz {
     public static void main(String[] args){

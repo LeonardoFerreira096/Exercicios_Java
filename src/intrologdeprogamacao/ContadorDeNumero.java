@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 // pegando só numeros pares
 

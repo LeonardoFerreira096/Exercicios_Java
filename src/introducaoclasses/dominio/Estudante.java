@@ -1,4 +1,4 @@
-package Aintroducaoclasses.dominio;
+package introducaoclasses.dominio;
 
 public class Estudante {
     public String nome = "Leleo";

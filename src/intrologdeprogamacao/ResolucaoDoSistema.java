@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 public class ExeArrays {
     public static void main(String[] args){

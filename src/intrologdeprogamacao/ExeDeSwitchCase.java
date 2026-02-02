@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 public class ExeDeSwitchCase {
     public static void main(String[] args) {

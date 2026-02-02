@@ -1,4 +1,4 @@
-package Alogdeprogamacao;
+package intrologdeprogamacao;
 
 public class PagamentoEmParcelas {
     public static void main(String[] args){
