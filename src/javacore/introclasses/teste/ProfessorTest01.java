@@ -1,7 +1,7 @@
-package introducaoclasses.teste;
+package javacore.introclasses.teste;
 
 
-import introducaoclasses.dominio.Professor;
+import javacore.introclasses.dominio.Professor;
 
 public class ProfessorTest01 {
 

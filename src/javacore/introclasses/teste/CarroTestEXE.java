@@ -1,6 +1,6 @@
-package introducaoclasses.teste;
+package javacore.introclasses.teste;
 
-import introducaoclasses.dominio.Carro;
+import javacore.introclasses.dominio.Carro;
 
 public class CarroTestEXE {
     public static void main(String[] args) {
