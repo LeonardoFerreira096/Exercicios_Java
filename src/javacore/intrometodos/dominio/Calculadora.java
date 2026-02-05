@@ -14,4 +14,9 @@ public class Calculadora {
         System.out.println(num1 * num2);
 
     }
+
+    //metodo com retorno != de void(com saída mas sem retorno)
+    public double dividirDoisNumeros(double num1, double num2){
+        return num1 / num2;
+    }
 }
