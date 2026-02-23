@@ -1,21 +1,28 @@
-package javacore.sobrecargademetodos.dominio;
+package javacore.construtores.dominio;
 
 public class TimeFutebol {
     private String nome;
     private String cidade;
     private int anofundacao;
     private  String apelidotime;
+    private String estadio;
 
-    public void init(String nome, String cidade, int anofundacao){
+    //Construtor criado por mim!
+    public TimeFutebol(String nome, String cidade, int anofundacao, String apelidotime){
+        this();
         this.nome = nome;
         this.cidade = cidade;
         this.anofundacao = anofundacao;
-
+        this.apelidotime = apelidotime;
     }
 
-    public void init(String nome, String cidade, int anofundacao, String apelidotime){
-        this.init(nome,cidade,anofundacao);
-        this.apelidotime = apelidotime;
+    public TimeFutebol(String nome, String cidade, int anofundacao, String apelidotime, String estadio){
+        this(nome, cidade, anofundacao, apelidotime);
+        this.estadio = estadio;
+    }
+
+    public TimeFutebol(){
+        System.out.println("Dentro do construtor sem argumentos");
     }
 
 
@@ -24,6 +31,15 @@ public class TimeFutebol {
         System.out.println(this.cidade);
         System.out.println(this.anofundacao + " - Ano de fundação");
         System.out.println(this.apelidotime + " - Apelido do Clube");
+        System.out.println(this.estadio + " - Estadio");
+    }
+
+    public void setEstadio(String estadio) {
+        this.estadio = estadio;
+    }
+
+    public String getEstadio() {
+        return estadio;
     }
 
     public void setApelidotime(String apelidotime) {
