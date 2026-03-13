@@ -19,7 +19,6 @@ public class Time {
         for (Jogador jogador : jogadores){
             System.out.println(jogador.getNome());
         }
-
     }
 
     public Jogador[] getJogadores() {
