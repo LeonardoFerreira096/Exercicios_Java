@@ -22,6 +22,7 @@ public class Professor {
     }
 
     public void setEspecialidade(String especialidade) {
+
         this.especialidade = especialidade;
     }
 }
