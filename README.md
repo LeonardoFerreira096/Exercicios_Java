@@ -1,2 +1,2 @@
-# Exercicios_Java
-Meus exercícios de Java
+# Estudos_Java
+Meus estudos em Java
