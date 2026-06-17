@@ -1,7 +1,6 @@
 package iredejava.herancatest;
 
 import iredejava.herancadominio.Aluno;
-import iredejava.herancadominio.Pessoa;
 import iredejava.herancadominio.Professor;
 
 public class herancatest {
