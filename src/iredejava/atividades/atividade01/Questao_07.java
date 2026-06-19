@@ -1,4 +1,4 @@
-//7. Crie um programa que leia um número inteiro não-negativo e calcule seu fatorial 
+package iredejava.atividades.atividade01;//7. Crie um programa que leia um número inteiro não-negativo e calcule seu fatorial
 //utilizando o laço for.
 //Exemplo: Entrada = 5 Saída = 120
 

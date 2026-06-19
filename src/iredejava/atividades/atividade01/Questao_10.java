@@ -1,3 +1,5 @@
+package iredejava.atividades.atividade01;
+
 import java.util.Scanner;
 
 public class Questao_10 {

@@ -1,4 +1,4 @@
-//2. Escreva um programa que mostre na tela os tipos de dados primitivos em Java com seus valores atribuídos.s
+package iredejava.atividades.atividade01;//2. Escreva um programa que mostre na tela os tipos de dados primitivos em Java com seus valores atribuídos.s
 
 public class Questao_02 {
 

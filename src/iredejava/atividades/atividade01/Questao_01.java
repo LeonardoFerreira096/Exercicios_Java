@@ -1,5 +1,7 @@
-
+package iredejava.atividades.atividade01;
 //1. Escreva um programa Java que use os operadores lógicos para verificar se um número está entre 10 e 20 (inclusive). Use int numero = 15;.
+;
+
 
 
 public class Questao_01 {

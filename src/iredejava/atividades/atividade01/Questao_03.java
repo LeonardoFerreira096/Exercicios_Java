@@ -1,4 +1,4 @@
-//3. Implemente um programa que exiba um menu com 3 opções:
+package iredejava.atividades.atividade01;//3. Implemente um programa que exiba um menu com 3 opções:
 //     1 - Somar dois números
 //     2 - Subtrair dois números
 //     3 - Sair

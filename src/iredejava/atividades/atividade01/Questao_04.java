@@ -1,4 +1,4 @@
-//4. Crie um programa que leia um número inteiro do usuário e imprima a tabuada 
+package iredejava.atividades.atividade01;//4. Crie um programa que leia um número inteiro do usuário e imprima a tabuada
 //desse número (de 1 a 10), usando um laço for
 
 import java.util.Scanner;

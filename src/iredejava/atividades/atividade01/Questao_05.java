@@ -1,4 +1,4 @@
-//5. Faça um programa que leia uma string e substitua todas as ocorrências da letra "e" 
+package iredejava.atividades.atividade01;//5. Faça um programa que leia uma string e substitua todas as ocorrências da letra "e"
 //por "*".
 
 import java.util.Scanner;
