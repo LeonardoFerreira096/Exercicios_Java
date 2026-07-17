@@ -2,11 +2,16 @@ package iredejava.atividades.atividade02.exercicio08;
 
 public class FuncionarioCLT extends Funcionario {
 
-    @Override
-    public double calcularSalario(double salario){
-        double beneficios = 500.00;
-        double descontosINSS = salario * 0.11;
+    public FuncionarioCLT(double salario) {
+        super(salario);
+    }
 
-        return salario + beneficios - descontosINSS;
+    @Override
+    public double calcularSalario() {
+
+        double beneficios = 500;
+        double descontoINSS = salario * 0.11;
+
+        return salario + beneficios - descontoINSS;
     }
 }
