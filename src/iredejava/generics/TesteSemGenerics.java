@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TesteSemGenerics {
-    public static void main() {
+    public static void main(String[] args) {
         List lista = new ArrayList();
 
         lista.add("Java");
