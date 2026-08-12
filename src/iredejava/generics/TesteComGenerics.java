@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TesteComGenerics {
-    static void main() {
+    public static void main() {
         List<String> lista = new ArrayList<>();
 
         lista.add("Java");
